@@ -1,0 +1,262 @@
+section.one {
+    margin: 5% 10%;
+}
+
+section.one img {
+    width: 550px;
+}
+
+section.one h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 78px;
+}
+
+section.one h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 75px;
+    margin: -30px 0 -25px 0;
+}
+
+section.one h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 120px;
+}
+
+section.two {
+    margin: 5% 10%;
+}
+
+section.two img {
+    width: 500px;
+    height: 500px;
+}
+
+.second-article {
+    width: 40%;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--grey);
+    font-size: 35px;
+}
+
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 57px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.last hr {
+    margin: 0 5%;
+    width: 28%;
+    height: 5px;
+    background: var(--white);
+}
+
+.articles {
+    margin: 5% 10%;
+}
+
+.articles article {
+    width: 25%;
+    box-shadow: 0px 0px 10px black;
+    margin: 0 70px;
+    border-radius: 5px;
+}
+
+h6.shoe-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: var(--grey);
+}
+
+.articles article p {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.articles article button {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.date {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: var(--grey);
+    padding-bottom: 15px;
+}
+
+.articles img {
+    width: 100%;
+}
+
+/** RESPONSIVE ***/
+/** RESPONSIVE ***/
+/** RESPONSIVE ***/
+
+@media screen and (max-width: 1550px) {
+    .articles article {
+        margin: 10px;
+        width: 30%;
+    }
+    
+    .articles article img {
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .modal-auth .modal-content {
+        flex-direction: column;
+    }
+
+    .inscription-container {
+        margin-bottom: 0;
+        border-right: none;
+        border-bottom: 1px solid var(--white);
+    }
+
+    .connexion-container {
+        margin-bottom: 0;
+        border-left: none;
+        border-top: 1px solid var(--white);
+    }
+
+
+    .modal-auth .modal-bg{
+        width: 100%;
+    }
+
+    .modal-auth h1 {
+        font-size: 20px!important;
+    }
+    .modal-auth h2 {
+        font-size: 30px!important;
+    }
+
+    h1 {
+        font-size: 70px!important;
+    }
+    h2{
+        font-size: 68px!important;
+    }
+    h3{
+        font-size: 22px!important;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    h5, h6 {
+        font-size: 35px;
+    }
+
+    .articles article img {
+        height: 135px;
+    }
+
+    .one img{
+        width: 100%!important;
+    }
+
+    .two img {
+        width: 100%!important;
+        height: 100%!important;
+    }
+
+    .second-article {
+        padding: 25px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .one article:nth-child(1) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .one h1{
+        font-size: 58px!important;
+    }
+
+    .one h2 {
+        font-size: 56px!important;
+    }
+
+    .one h3 {
+        font-size: 20px!important;
+        letter-spacing: 5px!important;
+    }
+
+    .one {
+        flex-direction: column;
+    }
+
+    .one img{
+        width: 100%!important;
+    }
+
+    .two img {
+        width: 100%!important;
+        height: 100%!important;
+    }
+
+    .articles {
+        flex-direction: column;
+
+    }
+
+    .articles article {
+        margin: 25px 0;
+        width: 100%;
+    }
+
+    .articles article img {
+        height: 100%;
+    }
+
+    .last hr {
+        display: none;
+    }
+
+    .two {
+        flex-direction: column-reverse;
+    }
+
+    .second-article {
+        margin-bottom: 25px;
+        text-align: center;
+        width: 80%;
+        padding: 0;
+    }
+
+    .second-article h4 {
+        font-size: 25px;
+    }
+
+    .last h6, .second-article h5 {
+        font-size: 35px;
+    }
+}
