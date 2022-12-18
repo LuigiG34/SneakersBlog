@@ -1,0 +1,25 @@
+USE CASE
+extend 
+-> possibilité
+Sur la page panier -> possibilité de cliquer sur les produits pour les consulter
+
+include 
+-> obligation
+Pour payer -> saisir coordonnées bancaire
+----------------------------------------------------------------------------
+SEQUENCE
+Connexion
+Update
+
+ACTIVITE
+Connexion
+Update
+----------------------------------------------------------------------------
+CLASSE
+Protected
+Attribut -> Propriétés
+Operation() -> Méthode
+Aggregation
+-> Une adresse ou un rôle est dans un utilisateur
+Composition
+-> Si on Supprime un utilisateur on supprimer ses commentaires et ses article

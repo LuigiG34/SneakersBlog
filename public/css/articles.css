@@ -231,6 +231,16 @@ h2 {
     .articles article img {
         height: 225px;
     }
+
+    .modal-add input, .modal-add textarea {
+        font-size: 12px;
+    }
+    .modal-add textarea {
+        height: 20%;
+    }
+    .modal-add h2 {
+        font-size: 40px!important;
+    }
 }
 
 @media screen and (max-width: 1024px) {

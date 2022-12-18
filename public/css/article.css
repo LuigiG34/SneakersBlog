@@ -125,6 +125,19 @@ input[type='submit'] {
 /** RESPONSIVE ***/
 /** RESPONSIVE ***/
 /** RESPONSIVE ***/
+@media screen and (max-width: 1550px) {
+
+    .modal-update input, .modal-update textarea {
+        font-size: 12px;
+    }
+    .modal-update textarea {
+        height: 20%;
+    }
+    .modal-update h2 {
+        font-size: 40px!important;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .img-article {
         width: 400px;

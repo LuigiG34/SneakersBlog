@@ -48,14 +48,14 @@ class ParagrapheManager extends DatabaseClass {
         }
     }
 
-    public function updateParagraphe($contenu_paragraphe, $id_paragraphe)
+    public function updateParagraphe($contenu_paragraphe, $id_article)
     {
-        $sql = "UPDATE paragraphe SET contenu_paragraphe = :contenu_paragraphe WHERE id_paragraphe = :id_paragraphe";
+        $sql = "UPDATE paragraphe SET contenu_paragraphe = :contenu_paragraphe WHERE id_article = :id_article";
 
         $stmt = $this->getDB()->prepare($sql);
         $stmt->execute([
             ":contenu_paragraphe" => $contenu_paragraphe,
-            ":id_paragraphe" => $id_paragraphe
+            ":id_article" => $id_article
         ]);
     }
 
